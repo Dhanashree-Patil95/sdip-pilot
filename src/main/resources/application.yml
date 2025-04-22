@@ -1,0 +1,13 @@
+registries:
+  registries:
+    cr:
+      name: "Civil Registry"
+      endpoint: "http://localhost:8080/api/rest/getalltests"
+      getByIdEndpoint: "http://localhost:8080/api/rest/getbyidtests/{id}"
+      idField: "id"
+
+    er:
+      name: "Education Registry"
+      endpoint: "http://localhost:8080/api/rest/getalltests1"
+      getByIdEndpoint: "http://localhost:8080/api/rest/getbyidtests/{id}"
+      idField: "id"
